@@ -14,6 +14,8 @@
 		C06C94B01F68697C00C441D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06C94AE1F68697C00C441D3 /* LaunchScreen.storyboard */; };
 		C06C94BB1F68697C00C441D3 /* madlibsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06C94BA1F68697C00C441D3 /* madlibsTests.swift */; };
 		C06C94C61F68697C00C441D3 /* madlibsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06C94C51F68697C00C441D3 /* madlibsUITests.swift */; };
+		C06C94D41F686AF900C441D3 /* WordInputTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06C94D31F686AF900C441D3 /* WordInputTableViewController.swift */; };
+		C06C94D61F6871A400C441D3 /* WordInputDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06C94D51F6871A400C441D3 /* WordInputDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C06C94C11F68697C00C441D3 /* madlibsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = madlibsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06C94C51F68697C00C441D3 /* madlibsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = madlibsUITests.swift; sourceTree = "<group>"; };
 		C06C94C71F68697C00C441D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C06C94D31F686AF900C441D3 /* WordInputTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordInputTableViewController.swift; sourceTree = "<group>"; };
+		C06C94D51F6871A400C441D3 /* WordInputDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordInputDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				C06C94AC1F68697C00C441D3 /* Assets.xcassets */,
 				C06C94AE1F68697C00C441D3 /* LaunchScreen.storyboard */,
 				C06C94B11F68697C00C441D3 /* Info.plist */,
+				C06C94D31F686AF900C441D3 /* WordInputTableViewController.swift */,
+				C06C94D51F6871A400C441D3 /* WordInputDelegate.swift */,
 			);
 			path = madlibs;
 			sourceTree = "<group>";
@@ -263,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C06C94A81F68697C00C441D3 /* ViewController.swift in Sources */,
+				C06C94D61F6871A400C441D3 /* WordInputDelegate.swift in Sources */,
 				C06C94A61F68697C00C441D3 /* AppDelegate.swift in Sources */,
+				C06C94D41F686AF900C441D3 /* WordInputTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
